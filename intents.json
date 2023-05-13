@@ -1,0 +1,37 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [ "Hi", "Hey", "Is anyone there?", "Hello", "Hay" ],
+      "responses": [ "Hello", "Hi", "Hi there" ]
+    },
+    {
+      "tag": "bye",
+      "patterns": [ "Bye", "See you later", "Goodbye", "byee", "byeee" ],
+      "responses": [ "Have a nice day", "Bye! Come back again" ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [ "Thanks", "Thank you", "That's helpful", "Thanks for the help" ],
+      "responses": [ "Happy to help!", "Any time!", "My pleasure", "You're most welcome!" ]
+    },
+     {
+      "tag": "help",
+      "patterns": [ "Can you help me" ],
+      "responses": [ "Sure, Please tell me What do you need ?" ]
+    },
+     {
+      "tag": "film",
+      "patterns": [ "What are the films currently running in theatre.","What films are now playing in theatres." ],
+      "responses": [ "abc, xyz" ]
+    },
+      {
+      "tag": "seat",
+      "patterns": [ "how many seats are available for xyz movie","How many seats are left for the movie xyz?","what number of seats are available for the film xyz" ],
+      "responses": [ "25" ]
+    }
+      
+
+
+  ]
+}
